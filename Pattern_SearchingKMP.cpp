@@ -1,4 +1,7 @@
-	int search(string text, string pat)
+	
+//Knuth–Morris–Pratt algorithm
+//Time complexity -> O(n)
+ int search(string text, string pat)
 	{
 	      int tempSize=pat.size();
 	   pat+='#';
@@ -14,5 +17,4 @@
 	   }
 	
 	   return 0;
-	
 	}
